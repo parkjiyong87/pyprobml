@@ -77,8 +77,8 @@ postnoise = np.array([np.sqrt(sigma2 + xtestp[i,:].T.dot(wcov.dot(xtestp[i,:])))
 MakePlot(ypredmle, 'linregPostPredBayes', 'Posterior predictive', postnoise, postnoise)
 
 #plot c
-MakePlot(ypredmle, 'linregPostPredSamplesPlugin', 'functions sampled from plugin approximation to posterior')
-
+MakePlot(ypredmle, 'linregPostPredSamplesPlugidfdfdn', 'functions sampled from plugin approximation to posterior')
+d
 #plot d
 MakePlot(SamplePreds, 'linregPostPredSamples', 'functions sampled from posterior')
 
