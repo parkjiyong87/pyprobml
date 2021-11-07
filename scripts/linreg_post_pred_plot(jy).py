@@ -9,7 +9,7 @@ from sklearn.linear_model import Ridge
 
 polydeg = 2 #Degree of design matrix
 alph = 0.001 #Alpha of ridge regression
-NFuncSamples = 10 #Number of sample coefficients to draw and use for prediction
+NFuncSamples = 15 #Number of sample coefficients to draw and use for prediction
 vis = 0.5 #Transparency of plotted lines - in case we wish to plot a bunch.
 
 np.random.seed(0)
